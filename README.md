@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Farham Aghdasi</h1>
 <h3 align="center">Junior Front-End Developer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=farhamaghdasi&label=Profile%20views&color=0e75b6&style=flat" alt="farhamaghdasi" /> </p>
-
-- 🔭 I’m currently working on [arzland](https://arzland.org/)
-
 - 🌱 I’m currently learning **nextjs**
 
 - 👨‍💻 All of my projects are available at [https://farhamaghdasi.ir/](https://farhamaghdasi.ir/)

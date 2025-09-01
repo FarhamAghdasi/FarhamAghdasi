@@ -1,8 +1,10 @@
-<p float="left" align="center">
-  <img src="cli-intro.svg" width="45%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=FarhamAghdasi&show_icons=true&theme=radical&hide_border=true&count_private=true" width="45%" />
+<!-- CLI SVG تمام عرض -->
+<p align="center">
+  <img src="cli-intro.svg" alt="Terminal Intro" width="100%"/>
 </p>
 
+<!-- GitHub Stats و Top Languages -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhamAghdasi&layout=compact&theme=dark&hide_border=true" width="90%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=FarhamAghdasi&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Farham's GitHub Stats" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhamAghdasi&layout=compact&theme=dark&hide_border=true" alt="Farham's Top Languages" width="45%" />
 </p>

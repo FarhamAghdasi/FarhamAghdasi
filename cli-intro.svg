@@ -1,138 +1,78 @@
-<!-- ================= CLI Intro ================= -->
-<p align="center">
-  <!-- Responsive SVG Terminal Intro -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" style="width:100%; height:auto;">
-    <style>
-      .bg { fill:#0a0f1e; } /* Dark terminal background */
-      .prompt { font:18px 'Courier New', monospace; fill:#00ff66; } /* Green terminal text */
-      .text { font:18px 'Courier New', monospace; fill:#e6f1ff; }
-      .highlight { font:20px 'Courier New', monospace; fill:#ffd700; font-weight:bold; }
-      .link { fill:#4da6ff; }
-      .cursor { fill:#00ff66; }
-    </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" style="width:100%; height:auto;">
+  <style>
+    .bg { fill:#0a0f1e; } /* Dark terminal background */
+    .prompt { font:18px 'Courier New', monospace; fill:#00ff66; } /* Green terminal text */
+    .text { font:18px 'Courier New', monospace; fill:#e6f1ff; }
+    .highlight { font:20px 'Courier New', monospace; fill:#ffd700; font-weight:bold; }
+    .link { fill:#4da6ff; }
+    .cursor { fill:#00ff66; }
+  </style>
 
-    <rect class="bg" width="100%" height="100%" rx="6"/>
+  <rect class="bg" width="100%" height="100%" rx="6"/>
 
-    <!-- whoami -->
-    <text x="20" y="40" class="prompt">farham@linux:~$ whoami</text>
-    <text x="20" y="70" class="highlight" opacity="0">
-      Farham Aghdasi
-      <animate attributeName="opacity" values="0;1" dur="3s" fill="freeze"/>
-    </text>
+  <!-- whoami -->
+  <text x="20" y="40" class="prompt">farham@linux:~$ whoami</text>
+  <text x="20" y="70" class="highlight" opacity="0">
+    Farham Aghdasi
+    <animate attributeName="opacity" values="0;1" dur="3s" fill="freeze"/>
+  </text>
 
-    <!-- role -->
-    <text x="20" y="110" class="prompt" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3s" dur="0.2s" fill="freeze"/>
-      farham@linux:~$ role
-    </text>
-    <text x="20" y="140" class="text" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.3s" dur="0.2s" fill="freeze"/>
-      Junior Full-Stack Developer
-    </text>
+  <!-- role -->
+  <text x="20" y="110" class="prompt" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="3s" dur="0.2s" fill="freeze"/>
+    farham@linux:~$ role
+  </text>
+  <text x="20" y="140" class="text" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="3.3s" dur="0.2s" fill="freeze"/>
+    Junior Full-Stack Developer
+  </text>
 
-    <!-- skills -->
-    <text x="20" y="180" class="prompt" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5s" dur="0.2s" fill="freeze"/>
-      farham@linux:~$ skills --list
-    </text>
-    <text x="20" y="210" class="text" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.3s" dur="0.2s" fill="freeze"/>
-      🌱 Currently learning: nextjs
-    </text>
-    <text x="20" y="240" class="link" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.6s" dur="0.2s" fill="freeze"/>
-      👨‍💻 All projects: https://farhamaghdasi.ir/
-    </text>
-    <text x="20" y="270" class="link" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.9s" dur="0.2s" fill="freeze"/>
-      📝 Blog: https://farhamaghdasi.ir/blog/
-    </text>
-    <text x="20" y="300" class="text" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="6.2s" dur="0.2s" fill="freeze"/>
-      💬 Ask me about: react, tailwindcss
-    </text>
-    <text x="20" y="330" class="text" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="6.5s" dur="0.2s" fill="freeze"/>
-      📫 Reach me: farhamaghdasi08@gmail.com
-    </text>
-    <text x="20" y="360" class="link" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="6.8s" dur="0.2s" fill="freeze"/>
-      📄 Resume: https://farhamaghdasi.ir/resume.pdf
-    </text>
+  <!-- skills -->
+  <text x="20" y="180" class="prompt" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="5s" dur="0.2s" fill="freeze"/>
+    farham@linux:~$ skills --list
+  </text>
+  <text x="20" y="210" class="text" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="5.3s" dur="0.2s" fill="freeze"/>
+    🌱 Currently learning: nextjs
+  </text>
+  <text x="20" y="240" class="link" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="5.6s" dur="0.2s" fill="freeze"/>
+    👨‍💻 All projects: https://farhamaghdasi.ir/
+  </text>
+  <text x="20" y="270" class="link" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="5.9s" dur="0.2s" fill="freeze"/>
+    📝 Blog: https://farhamaghdasi.ir/blog/
+  </text>
+  <text x="20" y="300" class="text" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="6.2s" dur="0.2s" fill="freeze"/>
+    💬 Ask me about: react, tailwindcss
+  </text>
+  <text x="20" y="330" class="text" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="6.5s" dur="0.2s" fill="freeze"/>
+    📫 Reach me: farhamaghdasi08@gmail.com
+  </text>
+  <text x="20" y="360" class="link" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="6.8s" dur="0.2s" fill="freeze"/>
+    📄 Resume: https://farhamaghdasi.ir/resume.pdf
+  </text>
 
-    <!-- tools -->
-    <text x="20" y="400" class="prompt" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="7.1s" dur="0.2s" fill="freeze"/>
-      farham@linux:~$ tools
-    </text>
-    <text x="20" y="430" class="text" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="7.4s" dur="0.2s" fill="freeze"/>
-      chartjs | css3 | docker | figma | git | html5 | javascript |
-    </text>
-    <text x="20" y="460" class="text" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="7.7s" dur="0.2s" fill="freeze"/>
-      linux | mysql | nextjs | photoshop | php | postman | react | redux | tailwindcss | prisma | tailwindcss | bootstrap5 | nodejs
-    </text>
+  <!-- tools -->
+  <text x="20" y="400" class="prompt" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="7.1s" dur="0.2s" fill="freeze"/>
+    farham@linux:~$ tools
+  </text>
+  <text x="20" y="430" class="text" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="7.4s" dur="0.2s" fill="freeze"/>
+    chartjs | css3 | docker | figma | git | html5 | javascript |
+  </text>
+  <text x="20" y="460" class="text" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="7.7s" dur="0.2s" fill="freeze"/>
+    linux | mysql | nextjs | photoshop | php | postman | react | redux | tailwindcss | prisma | bootstrap5 | nodejs
+  </text>
 
-    <!-- blinking cursor -->
-    <rect class="cursor" x="900" y="445" width="10" height="20">
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </svg>
-</p>
-
-<br/>
-
-<!-- ================= GitHub Stats & Top Languages ================= -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img 
-        src="https://github-readme-stats.vercel.app/api?username=FarhamAghdasi&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_rank=true" 
-        alt="Farham's GitHub Stats" 
-        style="max-width:100%; width:450px;" 
-      />
-    </td>
-    <td align="center">
-      <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhamAghdasi&layout=compact&theme=dark&hide_border=true" 
-        alt="Farham's Top Languages" 
-        style="max-width:100%; width:450px;" 
-      />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ================= Skills & Tools ================= -->
-<h3 align="center">🛠 Skills & Tools</h3>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="70" height="70"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="figma" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="postman" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="70" height="70"/> &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="70" height="70"/>
-</p>
-
-<br/>
-
-<!-- ================= Achievements / دستاوردها ================= -->
-<h3 align="center">🏆 Achievements</h3>
-
-<p align="center">
-- 🥉 Third place nationally, Khwarizmi Youth Festival<br/>
-- 🥈 Second place nationally, National Skills Competition for Youth
-</p>
+  <!-- blinking cursor -->
+  <rect class="cursor" x="900" y="445" width="10" height="20">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

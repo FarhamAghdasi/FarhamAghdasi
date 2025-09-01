@@ -46,7 +46,7 @@
 <br/>
 
 <!-- ================= Achievements / دستاوردها ================= -->
-<h3 align="center">🏆 Achievements / دستاوردها</h3>
+<h3 align="center">🏆 Achievements</h3>
 
 <p align="center">
 - 🥉 Third place nationally, Khwarizmi Youth Festival<br/>

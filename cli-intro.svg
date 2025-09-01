@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="560" viewBox="0 0 950 560">
+  <style>
+    .bg { fill:#0b1020; }
+    .prompt { font:18px 'Fira Code', monospace; fill:#00ff66; }
+    .text { font:18px 'Fira Code', monospace; fill:#e6f1ff; }
+    .highlight { font:20px 'Fira Code', monospace; fill:#ffd700; font-weight:bold; }
+    .link { fill:#4da6ff; }
+    .cursor { fill:#00ff66; }
+  </style>
+
+  <rect class="bg" width="100%" height="100%" rx="6"/>
+
+  <!-- whoami -->
+  <text x="20" y="40" class="prompt">farham@linux:~$ whoami</text>
+  <text x="20" y="70" class="highlight">
+    <tspan>F</tspan><tspan>a</tspan><tspan>r</tspan><tspan>h</tspan><tspan>a</tspan><tspan>m</tspan>
+    <tspan> </tspan><tspan>A</tspan><tspan>g</tspan><tspan>h</tspan><tspan>d</tspan><tspan>a</tspan><tspan>s</tspan><tspan>i</tspan>
+    <animate attributeName="display" values="inline" begin="1s" dur="3s" fill="freeze"/>
+  </text>
+
+  <!-- role -->
+  <text x="20" y="110" class="prompt">farham@linux:~$ role</text>
+  <text x="20" y="140" class="text">Junior Full-Stack Developer
+    <animate attributeName="display" values="inline" begin="4.5s" dur="2s" fill="freeze"/>
+  </text>
+
+  <!-- skills -->
+  <text x="20" y="180" class="prompt">farham@linux:~$ skills --list</text>
+  <text x="20" y="210" class="text">🌱 Currently learning: nextjs
+    <animate attributeName="display" values="inline" begin="7s" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="240" class="link">👨‍💻 All projects: https://farhamaghdasi.ir/
+    <animate attributeName="display" values="inline" begin="9s" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="270" class="link">📝 Blog: https://farhamaghdasi.ir/blog/
+    <animate attributeName="display" values="inline" begin="11s" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="300" class="text">💬 Ask me about: react, tailwindcss
+    <animate attributeName="display" values="inline" begin="13s" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="330" class="text">📫 Reach me: farhamaghdasi08@gmail.com
+    <animate attributeName="display" values="inline" begin="15s" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="360" class="link">📄 Resume: https://farhamaghdasi.ir/resume.pdf
+    <animate attributeName="display" values="inline" begin="17s" dur="2s" fill="freeze"/>
+  </text>
+
+  <!-- tools -->
+  <text x="20" y="400" class="prompt">farham@linux:~$ tools</text>
+  <text x="20" y="430" class="text">
+    chartjs | css3 | docker | figma | git | html5 | javascript |
+    <animate attributeName="display" values="inline" begin="19s" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="460" class="text">
+    linux | mysql | nextjs | photoshop | php | postman | react | redux | tailwindcss
+    <animate attributeName="display" values="inline" begin="21s" dur="2s" fill="freeze"/>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect class="cursor" x="900" y="445" width="10" height="20">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

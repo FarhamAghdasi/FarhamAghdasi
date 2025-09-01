@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="950" height="560" viewBox="0 0 950 560">
   <style>
-    .bg { fill:#0b1020; }
-    .prompt { font:18px 'Fira Code', monospace; fill:#00ff66; }
-    .text { font:18px 'Fira Code', monospace; fill:#e6f1ff; }
-    .highlight { font:20px 'Fira Code', monospace; fill:#ffd700; font-weight:bold; }
+    .bg { fill:#0a0f1e; } /* پس‌زمینه تیره ترمینال */
+    .prompt { font:18px 'Courier New', monospace; fill:#00ff66; } /* رنگ سبز ترمینال */
+    .text { font:18px 'Courier New', monospace; fill:#e6f1ff; }
+    .highlight { font:20px 'Courier New', monospace; fill:#ffd700; font-weight:bold; }
     .link { fill:#4da6ff; }
     .cursor { fill:#00ff66; }
   </style>
@@ -12,21 +12,8 @@
 
   <!-- whoami -->
   <text x="20" y="40" class="prompt">farham@linux:~$ whoami</text>
-  <text x="20" y="70" class="highlight">
-    <tspan>F</tspan>
-    <tspan>a</tspan>
-    <tspan>r</tspan>
-    <tspan>h</tspan>
-    <tspan>a</tspan>
-    <tspan>m</tspan>
-    <tspan> </tspan>
-    <tspan>A</tspan>
-    <tspan>g</tspan>
-    <tspan>h</tspan>
-    <tspan>d</tspan>
-    <tspan>a</tspan>
-    <tspan>s</tspan>
-    <tspan>i</tspan>
+  <text x="20" y="70" class="highlight" opacity="0">
+    Farham Aghdasi
     <animate attributeName="opacity" values="0;1" dur="3s" fill="freeze"/>
   </text>
 

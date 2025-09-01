@@ -1,17 +1,57 @@
-<h1 align="center">Hi 👋, I'm Farham Aghdasi</h1>
-<h3 align="center">Junior Front-End Developer</h3>
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="520" viewBox="0 0 950 520">
+  <style>
+    .bg { fill:#0b1020; }
+    .text { font:18px 'Courier New', monospace; fill:#00ff66; }
+    .cursor { fill:#00ff66; }
+  </style>
 
-- 🌱 I’m currently learning **nextjs**
+  <!-- background -->
+  <rect class="bg" width="100%" height="100%" />
 
-- 👨‍💻 All of my projects are available at [https://farhamaghdasi.ir/](https://farhamaghdasi.ir/)
+  <!-- whoami -->
+  <text x="20" y="40" class="text">farham@linux:~$ whoami</text>
+  <text x="20" y="70" class="text">
+    <tspan>F</tspan>
+    <tspan dx="0"><animate attributeName="visibility" values="hidden;visible" dur="0.1s" begin="1s" fill="freeze"/></tspan>
+    <tspan>a</tspan>
+    <tspan>r</tspan>
+    <tspan>h</tspan>
+    <tspan>a</tspan>
+    <tspan>m</tspan>
+    <tspan> </tspan>
+    <tspan>A</tspan>
+    <tspan>g</tspan>
+    <tspan>h</tspan>
+    <tspan>d</tspan>
+    <tspan>a</tspan>
+    <tspan>s</tspan>
+    <tspan>i</tspan>
+  </text>
 
-- 📝 I regularly write articles on [https://farhamaghdasi.ir/blog/](https://farhamaghdasi.ir/blog/)
+  <!-- role -->
+  <text x="20" y="110" class="text">farham@linux:~$ role</text>
+  <text x="20" y="140" class="text">Junior Full-Stack Developer</text>
 
-- 💬 Ask me about **react,tailwindcss**
+  <!-- skills -->
+  <text x="20" y="180" class="text">farham@linux:~$ skills --list</text>
+  <text x="20" y="210" class="text">🌱 Currently learning: nextjs</text>
+  <text x="20" y="240" class="text">👨‍💻 All projects: https://farhamaghdasi.ir/</text>
+  <text x="20" y="270" class="text">📝 Blog: https://farhamaghdasi.ir/blog/</text>
+  <text x="20" y="300" class="text">💬 Ask me about: react, tailwindcss</text>
+  <text x="20" y="330" class="text">📫 Reach me: farhamaghdasi08@gmail.com</text>
+  <text x="20" y="360" class="text">📄 Resume: https://farhamaghdasi.ir/resume.pdf</text>
 
-- 📫 How to reach me **farhamaghdasi08@gmail.com**
+  <!-- tools -->
+  <text x="20" y="400" class="text">farham@linux:~$ tools</text>
+  <text x="20" y="430" class="text">
+    chartjs | css3 | docker | figma | git | html5 | javascript |
+  </text>
+  <text x="20" y="460" class="text">
+    linux | mysql | nextjs | photoshop | php | postman | react | redux | tailwindcss
+  </text>
 
-- 📄 Know about my experiences [https://farhamaghdasi.ir/resume](https://farhamaghdasi.ir/resume.pdf)
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+  <!-- blinking cursor -->
+  <rect class="cursor" x="880" y="445" width="10" height="20">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

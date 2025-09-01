@@ -22,7 +22,7 @@
 <!-- ================= Skills & Tools ================= -->
 <h3 align="center">🛠 Skills & Tools</h3>
 
-<!-- سطر اول -->
+<!-- First row -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="60" height="60"/> &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60"/> &nbsp;&nbsp;
@@ -33,7 +33,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/>
 </p>
 
-<!-- سطر دوم (کوتاه‌تر) -->
+<!-- Second row -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/> &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="60" height="60"/> &nbsp;&nbsp;
@@ -41,4 +41,14 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="postman" width="60" height="60"/> &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="60" height="60"/> &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="60" height="60"/>
+</p>
+
+<br/>
+
+<!-- ================= Achievements / دستاوردها ================= -->
+<h3 align="center">🏆 Achievements / دستاوردها</h3>
+
+<p align="center">
+- 🥉 Third place nationally, Khwarizmi Youth Festival<br/>
+- 🥈 Second place nationally, National Skills Competition for Youth
 </p>

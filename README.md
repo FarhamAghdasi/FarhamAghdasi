@@ -6,11 +6,16 @@
 <br/>
 
 <!-- ================= GitHub Stats & Top Languages ================= -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FarhamAghdasi&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_rank=true" alt="Farham's GitHub Stats" width="500" height="250" />
-  &nbsp;&nbsp;&nbsp;&nbsp; <!-- فاصله بین دو کارت -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhamAghdasi&layout=compact&theme=dark&hide_border=true" alt="Farham's Top Languages" width="500" height="250" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=FarhamAghdasi&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_rank=true" alt="Farham's GitHub Stats" width="450" height="220"/>
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FarhamAghdasi&layout=compact&theme=dark&hide_border=true" alt="Farham's Top Languages" width="450" height="220"/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
